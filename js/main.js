@@ -9,8 +9,8 @@ splitter.addEventListener('mousedown', (event) => {
   let initialX = event.screenX - sidebar_width;
   let mousemove = (event) => {
     let newWidth = event.screenX - initialX;
-    if (newWidth < 154) {
-      newWidth = 154;
+    if (newWidth < 158) {
+      newWidth = 158;
     } else if (newWidth > 396) {
       newWidth = 396;
     }
