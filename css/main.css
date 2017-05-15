@@ -44,6 +44,7 @@ body {
   width: 100%;
   background-color: #f0f3f6;
   border-bottom: 1px solid #B7B8BA;
+  overflow: hidden;
 }
 #tools  {
   height: 32px;
@@ -71,14 +72,18 @@ div.note {
   margin-top: 5px;
 }
 
+#close:hover {
+  background-position: -19px 0;
+}
+
 .icon {
-  width: 15px;
-  height: 15px;
+  width: 13px;
+  height: 13px;
   background-image: url('../img/format-buttons@2x.png');
   background-repeat: no-repeat;
   display: inline-block;
-  background-size: 81px;
-  margin: 9px 4px;
+  background-size: 68px;
+  margin: 10px 4px;
   opacity: .7;
 }
 
@@ -91,23 +96,23 @@ div.note {
 box-shadow: inset 0px 0px 4px 0px rgba(0,0,0,0.75); }
 
 #font-size {
-  background-position: 0 0;
+  background-position: -1px 0;
 }
 
 #bold {
-  background-position: -7px -162px;
+  background-position: -7px -136px;
 }
 
 #italic {
-  background-position: -7px -195px;
+  background-position: -7px -164px;
 }
 
 #underline {
-  background-position: -7px -179px;
+  background-position: -4px -150px;
 }
 
 #bullets {
-  background-position: -4px -113.6px;
+  background-position: -3px -95px;
 }
 
 #sync {
