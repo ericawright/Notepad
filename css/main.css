@@ -6,19 +6,22 @@ body {
   height: 100%;
   margin: 0;
   background-color: pink;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
 }
 
 .title-text {
   margin: 0;
-  margin-left: 10px;
-  line-height: 32px;
-  color: hsla(0, 0%, 0%, 0.7);
+  margin-left: 8px;
+  line-height: 25px;
+  color: #626262;
   display: inline;
-  font-size: 14px;
+  font-size: 11px;
+  font-weight: 500;
 }
 
 #sidebar {
-  width: 158px;
+  width: 200px;
+  min-width: 178px;
   height: 100%;
   border-right: 1px #B7B8BA solid;
   position: relative;
@@ -37,29 +40,35 @@ body {
 }
 
 #title, #tools  {
-  height: 32px;
+  height: 26px;
   width: 100%;
-  background-color: #E3E4E6;
+  background-color: #f0f3f6;
   border-bottom: 1px solid #B7B8BA;
 }
+#tools  {
+  height: 32px;
+  padding-left: 5px;
+}
 
-textarea {
+div.note {
   width: 100%;
   height: 100%;
   outline: none;
   border: none;
   margin: 0;
+  background: #fff;
+  padding: 5px;
 }
 
 #close {
-  width: 17px;
-  height: 17px;
+  width: 16px;
+  height: 16px;
   background-image: url('../img/close@2x.png');
   background-repeat: no-repeat;
-  background-size: 74px;
+  background-size: 64px;
   float: right;
   margin-right: 5px;
-  margin-top: 6px;
+  margin-top: 5px;
 }
 
 .icon {
@@ -76,6 +85,10 @@ textarea {
 .icon:hover {
   opacity: 1;
 }
+
+.icon:active { -webkit-box-shadow: inset 0px 0px 4px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: inset 0px 0px 4px 0px rgba(0,0,0,0.75);
+box-shadow: inset 0px 0px 4px 0px rgba(0,0,0,0.75); }
 
 #font-size {
   background-position: 0 0;
@@ -100,5 +113,3 @@ textarea {
 #sync {
   background-position: -7px -195px;
 }
-
-
